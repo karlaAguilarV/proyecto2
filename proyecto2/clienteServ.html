@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>cliente/servidor</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="dos">
+        <header>
+                <h3>PROTOCOLO HTTP</h3>
+                <HR></HR>
+            </header>
+        <nav>
+                <nav class="menuCSS3">
+                    <ul>
+                        <li><a href="index.html">Inicio </a></li>
+                        <li><a href="clienteServ.html">Cliente/Servidor</a>
+                            <ul> 
+                                <li><a href="mensajesHTTP.html">Mensajes de HTTP</a></li>
+                                <li><a href="cabeceras.html">Cabeceras</a></li>   
+                           </ul>    
+                        </li>
+                        <li><a href="navSitWeb.html">Navegadores/Sitios Web</a></li>
+                        <li><a href="autnticacion.html">Autenticación</a>
+                           <ul>
+                                <li> <a href="httpSeguridad.html"> Http,Seguridad/certificado</a></li>
+                           </ul>
+                       </li>
+                        
+                    </ul>
+                </nav>
+            </nav>
+            <section class="infoo" >
+                    <img class="foto3" src="imgs/8091749_orig.jpg" alt="imagen 3">
+                    <center ><h1 class="cl"> Cliente/Servidor</h1></center> 
+                <h3>
+                        El funcionamiento del http se basa en un esquema de petición-respuesta entre el servidor 
+                        web y el “agente usuario” (del inglés user agent) o cliente que realiza la solicitud de 
+                        transmisión de datos. Un cliente puede ser un explorador determinado, cuando intentamos
+                         abrir una página web, o los rastreadores web (webcrawlers o arañas web) que las inspeccionan.
+                        Cada vez que un cliente realiza una petición a un servidor, se ejecutan los siguientes pasos: </h3>
+                        <br>
+                        <ol>
+                            <li><b>Un usuario accede a una URL, seleccionando un enlace de un documento HTML o
+                                    introduciéndola directamente en el campo Location del cliente Web.</b> </li>
+                            <li><b>El cliente Web descodifica la URL, separando sus diferentes partes.
+                                 Así identifica el protocolo de acceso, la dirección DNS o IP del servidor, 
+                                 el posible puerto opcional (el valor por defecto es 80) y el objeto requerido del servidor.</b> </li>
+                            <li> <b>Se abre una conexión TCP/IP con el servidor, llamando al puerto TCP correspondiente.
+                                 Se realiza la petición. Para ello, se envía el comando necesario (GET, POST, HEAD,…),
+                                 la dirección del objeto requerido (el contenido de la URL que sigue a la dirección del servidor),
+                                 la versión del protocolo HTTP empleada (casi siempre HTTP/1.0) y un conjunto variable de información,
+                                que incluye datos sobre las capacidades del browser, datos opcionales para el servidor,… Protocolo HTTP 19</li></b>
+                            <li><b>El servidor devuelve la respuesta al cliente. Consiste en un código de estado y el tipo de dato MIME
+                                 de la información de retorno, seguido de la propia información.</b></li>
+                            <li><b>Se cierra la conexión TCP.</b> </li>
+                        </ol>
+                   <br>
+                   <br>
+                   <br>
+                   <br>
+                   <br>
+                   <br>
+                   <br>
+                   <center ><h1 class="cl1"> Los mensajes de HTTP</h1></center> 
+                        <ul class="lii">
+                            <li ><b>En una comunicación HTTP sólo existen dos tipos de mensajes, los de petición (request) y los de respuesta (reply)</b> </li>
+                            <li><b>La realidad es que es un proceso más complejo, ya que la comunicación no se realiza en una única etapa.</b </li>
+                            <li> <b>La información se divide y se envía en pequeños paquetes que son unidos en el destino final, que es lo que establecen las normas o el protocolo TCP.</b></li>
+                        </ul>
+            </section>
+            
+
+            <footer>
+                    <p>Formulario de suscripción</p>
+                    <br>    
+                            <form action="input">
+                                    <input type="text" name="email" placeholder="Direccion de email">
+                                </form>
+                                </div>
+                                <div>
+                                        <form action="">
+                                                <button type="submit">Enviar</button> 
+                                            </form>
+                                </div>
+                          
+                </footer>  
+</body>
+</html>

@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+}
+body{
+ background-color:  #1976D2 ;
+}
+header{
+    text-align: center;
+    background:rgb(255, 255, 255);
+}
+nav{
+    position: fixed;
+    text-align: center;
+    background: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    width: 100%;
+    height: 100px; 
+}
+nav ul li{
+    text-align: center;
+    padding: 15px 20px 0 20px;
+    list-style: none;
+    display: inline; 
+}
+nav ul li a{
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: rgb(179, 23, 56); 
+    transition: all .3s;
+}
+
+.menuCSS3 ul {
+    display: inline-flex;
+    list-style: none;
+    padding:0px;
+}
+.menuCSS3 a {
+    display: block;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    color: #191C26;
+}
+.menuCSS3 a:hover {
+    background-color: rgb(73, 147, 160);
+}
+.menuCSS3 ul li ul {
+    display: none;
+}
+.menuCSS3 ul li a:hover + ul, .menuCSS3 ul li ul:hover {
+    display: inline-table;
+}
+.das{
+    position: static;
+    width: 100%;
+    height: 100px;
+}
+ div.transbox {
+    text-align: center;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.7;
+    filter: alpha(opacity=70); 
+  }
+  div.transbox p {
+   padding-inline-end: 0%;
+   width: 1300px;
+    font-weight: bold;
+    color: #000000;
+  }
+  section{
+    text-align: justify;
+    margin: 230px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+}
+
+.dos{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(rgb(233, 228, 228) 60%, #1976D2 30%);
+   color: black;
+}
+.infoo{
+    margin: 230;
+    color: #000000; 
+}
+.cl{
+    font-size: 100px;
+  color: #1976D2;
+}
+.cl1{
+ font-size: 100px;
+ color: #fff;
+}
+.lii{
+    font-size: 25px;
+    color: #fff;
+    text-align:justify;
+}
+.tres{
+    background: rgb(243, 241, 241);
+}
+
+.men{
+    margin-left: 1PX;;
+    font-size: 90px;
+    color: #1976D2;
+}
+.infor{
+    margin-right: 1PX;
+    margin-left: 1px;
+   font-size: 20px;
+    text-align:justify;
+    color: #000000;
+}
+.fot{
+    float: right;
+}
+.pro{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(rgb(233, 228, 228) 50%, #1976D2 30%);
+}
+.cl11{
+    font-family: fantasy;
+    font-size: 80px;
+ color: #fff;
+}
+.lii1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #fff;
+}
+.navsi{
+    
+    background: linear-gradient(rgb(233, 228, 228) 55%, #1976D2 30%);
+}
+.navs{
+    font-family: 'Gill Sans'; 
+    color: #1976D2;
+}
+.naveg{
+    font-family: cursive;
+   
+    text-align: justify;
+    color: #000000;
+}
+.sit{
+    margin: 0;
+    text-align: left;
+    color: #fff
+}
+.ft6{
+    margin-left: 1px;
+}
+.aun{
+    background: rgb(230, 227, 227);
+}
+.aunt{
+    text-align: center;
+    text-align: justify;
+    color: #000000;
+}
+.au{
+    text-align: left;
+    color: #1976D2;
+}
+.ult{
+    background: linear-gradient(rgb(233, 228, 228) 50%, #1976D2 30%);
+}
+.ht{
+    text-align: left;
+    color: #1976D2;
+}
+.se{
+    text-align: right;
+}
+.segr{
+    color: #fff;
+}
+
+.foto1 { padding: 10px; margin: 10px; border: 2px solid black; float: left; width: 250px; height: 350px;  }
+.foto2{ padding: 10px; margin: 10px; border: 2px solid black; float: left; width: 250px; height: 200px; }
+.foto3{ padding: 10px; margin: 10px; border: 2px solid black; float: center; width: 800px; height: 400px; }
+.foto4{padding: 10px; margin: 10px; border: 2px solid black; float: right; width: 450px; height: 550px; }
+.foto5{ padding: 10px; margin: 10px; border: 2px solid black; float: center; width: 650px; height: 350px;}
+.foto6{padding: 10px; margin: 10px; border: 2px solid black; float: right; width: 450px; height: 350px;}
+.foto8{padding: 10px; margin: 10px; border: 2px solid black; float: left; width: 350px; height: 350px;}
+
+  footer{
+    background: rgb(255, 255, 255);
+    color: rgb(3, 3, 3);
+    padding: 40px;
+    margin-top: 40px;
+    text-align: center; 
+}
+input{
+    margin: 5px;
+    text-align: center;
+    height: 38px;
+    width: 30%;
+}
+button{
+    margin: 5px;
+    height: 38px;
+    width: 30%;
+    background-color: rgb(15, 13, 13);
+    border: 0;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+}
+
+
+
+

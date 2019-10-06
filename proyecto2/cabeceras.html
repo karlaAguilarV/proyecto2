@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>cabeceras</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="pro">
+        <header>
+                <h3>PROTOCOLO HTTP</h3>
+                <HR></HR>
+            </header>
+        <nav>
+                <nav class="menuCSS3">
+                    <ul>
+                        <li><a href="index.html">Inicio </a></li>
+                        <li><a href="clienteServ.html">Cliente/Servidor</a>
+                            <ul> 
+                                <li><a href="mensajesHTTP.html">Mensajes de HTTP</a></li>
+                                <li><a href="cabeceras.html">Cabeceras</a></li>   
+                           </ul>    
+                        </li>
+                        <li><a href="navSitWeb.html">Navegadores/Sitios Web</a></li>
+                        <li><a href="autnticacion.html">Autenticación</a>
+                           <ul>
+                                <li> <a href="httpSeguridad.html"> Http,Seguridad/certificado</a></li>
+                           </ul>
+                       </li>
+                        
+                    </ul>
+                </nav>
+            </nav>
+            <section class="infoo" >
+                    <center ><h1 class="cl">Cabeceras de HTTP</h1></center> 
+                <h3>
+                        Cada petición HTTP que el navegador realiza al servidor, se divide en 2 partes:</h3>
+                        <br>
+                       <h3> – Las cabeceras (Headers)</h3>
+                       <br>
+                          <h3>  – El cuerpo de la respuesta (Response body) </h3>
+                        <br>
+                        <h3> Cabeceras HTTP más habituales</h3>
+                        <br>
+                        <ol>
+                            <li><b>
+                                    Server: indica el tipo de servidor HTTP empleado</b> </li>
+                            <li><b>Age: indica el tiempo que ha estado el objeto servidor almacenado en un proxy cache (en segundos)</b> </li>
+                            <li> <b>Cache-control: lo usa el servidor para decirle al navegador que objetos cachear, durante cuánto tiempo, etc...</li></b>
+                            <li><b>Content-Encoding: se indica el tipo de codificación empleado en la respuesta</b></li>
+                            <li><b>Expires: indica una fecha y hora a partir del cual la respuesta HTTP se considera obsoleta. Usado para gestionar caché.</b> </li>
+                            <li><b>P3P: se usa para especificar el tipo de política de privacidad empleado en la web. No está muy extendido.</b> </li>
+                            <li><b>Location: usado para especificar una nueva ubicación en casos de redirecciones.</b> </li>
+                            <li><b>Set-Cookie: sirve para crear cookies. Las famosos cookies viajan entre el servidor y el navegador a través de estas cabeceras HTTP.
+                   <br>
+                   <br>
+                   <br>
+                   <br>
+                   <br>
+                   <br>
+                   <br>
+                   <center ><h1 class="cl11">Códigos de respuesta</h1></center> 
+                        <ul class="lii1">
+                            <p>Son los códigos que se ven cuando el navegador no puede mostrar la página solicitada. 
+                                El código de respuesta está formado por tres dígitos: el primero indica el estado y
+                                 los dos siguientes explican la naturaleza exacta del error.</p>
+                                 <br>
+                            <li >CONTENT-TYPE: El Tipo Mime de la respuesta (En caso de que sea una respuesta), o del contenido subido vía POST/PUT (en caso de que sea una Request) </li>
+                            <li> CONTENT-LENGTH: El tamaño de la respuesta en octetos (8 bits) </li>
+                            <li>ACCEPTED: La solicitud ha sido aceptada, pero el procedimiento que sigue no se ha llevado a cabo</li>
+                            <li>PARTIAL INFORMATION: Cuando se recibe este código en respuesta a un comando de GET indica que la respuesta no está completa.</li>
+                            <li>NO RESPONSE: El servidor ha recibido la solicitud, pero no hay información de respuesta</li>
+                            <li>RESET CONTENT: El servidor le indica al navegador que borre el contenido en los campos de un formulario</li>
+                        </ul>
+            </section>
+
+            <footer>
+                    <p>Formulario de suscripción</p>
+                    <br>    
+                            <form action="input">
+                                    <input type="text" name="email" placeholder="Direccion de email">
+                                </form>
+                                </div>
+                                <div>
+                                        <form action="">
+                                                <button type="submit">Enviar</button> 
+                                            </form>
+                                </div>
+                          
+                </footer>    
+</body>
+</html>
